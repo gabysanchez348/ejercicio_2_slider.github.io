@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Carrusel de imagenes</title>
+        <style>
+            body{
+                font-family: sans-serif;
+                display: flex;
+                justify-content: top;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+                margin: 0;
+                background-color: #f0f0f0;
+            }
+            .contenedor{
+                width: 800px;
+                height: 300px;
+                border: 5px solid #333;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+                overflow: hidden;
+            }
+            #carrusel-imagen{
+                width: 100%;
+                height: 100%;
+                display: block;
+                transition: opacity 0.5s ease-in-out;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mi Carrusel Automático</h1>
+        <div class="contenedor">
+            <img id="carrusel-imagen" src="img/imagen1.jpg" alt="Imagen 1">
+            <img id="carrusel-imagen" src="img/imagen2.jpg" alt="Imagen 2">
+            <img id="carrusel-imagen" src="img/imagen3.jpg" alt="Imagen 3">
+            <img id="carrusel-imagen" src="img/imagen4.jpeg" alt="Imagen 4">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
