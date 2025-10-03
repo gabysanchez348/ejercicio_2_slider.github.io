@@ -7,8 +7,7 @@ const imagenes = [
     'imagen5.jpg',
     'imagen6.jpg',
     'imagen7.jpg',
-    'imagen8.jpg',
-
+    'imagen8.jpg'
 ];
 let indiceActual = 0;
 function cambiarImagen() {
@@ -20,3 +19,4 @@ function cambiarImagen() {
     }, 500);
 }
 setInterval(cambiarImagen, 3000);
+
