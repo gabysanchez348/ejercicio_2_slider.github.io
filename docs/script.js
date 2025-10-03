@@ -3,7 +3,12 @@ const imagenes = [
     'imagen1.jpg',
     'imagen2.jpg',
     'imagen3.jpg',
-    'imagen4.jpeg'
+    'imagen4.jpeg',
+    'imagen5.jpg',
+    'imagen6.jpg',
+    'imagen7.jpg',
+    'imagen8.jpg',
+
 ];
 let indiceActual = 0;
 function cambiarImagen() {
